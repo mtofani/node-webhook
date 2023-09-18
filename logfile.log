@@ -1,2 +1,4 @@
 {"body":{"event":"user_registered","user":{"id":1,"name":"John Doe"}},"level":"info","message":"Received POST request at /events","timestamp":"2023-09-14 17:55:58"}
 {"level":"debug","message":"The is the home '/' route.","timestamp":"2023-09-14 17:55:58"}
+{"body":{"name":"EL TANITO"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-18 17:24:50"}
+{"body":{"name":"EL TANITO"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-18 17:25:01"}
