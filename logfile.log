@@ -2,3 +2,13 @@
 {"level":"debug","message":"The is the home '/' route.","timestamp":"2023-09-14 17:55:58"}
 {"body":{"name":"EL TANITO"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-18 17:24:50"}
 {"body":{"name":"EL TANITO"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-18 17:25:01"}
+{"body":{"name":"EL TANITO"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-19 09:16:39"}
+{"body":{"name":"HOLA GUACHO"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-19 10:54:19"}
+{"body":{"mensaje":"aca tenes el tail huevon"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-19 10:56:15"}
+{"body":{"event":"user_registered","user":{"id":1,"name":"John Doe"}},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-19 11:00:52"}
+{"body":{"event":"user_registered","user":{"id":1,"name":"HOLAAAA"}},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-20 14:52:18"}
+{"body":{},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-20 14:56:09"}
+{"body":{},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-20 14:57:06"}
+{"body":{"event":"user_registered","user":{"id":1,"name":"John Doe"}},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-20 15:23:53"}
+{"body":{"event":"user_registered","user":{"id":1,"name":"John Doe"}},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-20 15:23:53"}
+{"body":{"event":"user_registered","user":{"id":2,"name":"SantiGPT"}},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-20 15:25:21"}
