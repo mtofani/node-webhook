@@ -12,3 +12,23 @@
 {"body":{"event":"user_registered","user":{"id":1,"name":"John Doe"}},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-20 15:23:53"}
 {"body":{"event":"user_registered","user":{"id":1,"name":"John Doe"}},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-20 15:23:53"}
 {"body":{"event":"user_registered","user":{"id":2,"name":"SantiGPT"}},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-09-20 15:25:21"}
+{"body":{"name":"carlos"},"level":"info","message":"Received GET request at /webhook","timestamp":"2023-10-02 13:53:47"}
+{"body":{"name":"carlos"},"level":"info","message":"Received GET request at /webhook","timestamp":"2023-10-02 13:55:06"}
+{"body":{"name":"carlos"},"level":"info","message":"Received GET request at /webhook","timestamp":"2023-10-02 13:55:16"}
+{"body":{"name":"carlos"},"level":"info","message":"Received GET request at /webhook","timestamp":"2023-10-02 13:55:57"}
+{"body":{"name":"carlos"},"level":"info","message":"Received GET request at /webhook","timestamp":"2023-10-02 13:55:59"}
+{"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 13:56:20"}
+{"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 13:57:37"}
+{"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 13:58:39"}
+{"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 13:59:28"}
+{"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 13:59:46"}
+{"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 13:59:59"}
+{"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 14:00:16"}
+{"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 14:01:30"}
+{"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 14:02:05"}
+{"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 14:03:37"}
+{"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 14:05:53"}
+{"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 14:06:57"}
+{"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 14:07:21"}
+{"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 14:07:44"}
+{"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 14:08:03"}

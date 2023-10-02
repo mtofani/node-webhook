@@ -5,6 +5,7 @@ const logger = require("./logger");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const insertar = require("../node-webhook/src/db"); // Aquí importamos la función insertar
 
 app.use(bodyParser.json());
 
@@ -17,6 +18,14 @@ app.post("/webhook", (req, res) => {
   //console.log("Received webhook:", req.body);
   //req.log.info("something");
   //logger.debug("The is the home '/' route.");
+  console.log(req.ip);
+  insertar(req)
+    .then(() => {
+      console.log("Operación completada. La conexión se cerró.");
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
   res.sendStatus(200);
 });
 
