@@ -1,0 +1,43 @@
+{
+    "version": "4",
+    "groupKey": "some_group_key",
+    "truncatedAlerts": 2,
+    "status": "firing",
+    "receiver": "some_receiver",
+    "groupLabels": {},
+    "commonLabels": {},
+    "commonAnnotations": {},
+    "externalURL": "http://example.com/alertmanager",
+    "alerts": [
+      {
+        "status": "firing",
+        "labels": {
+          "severity": "critical",
+          "job": "openshift",
+          "instance": "node-1"
+        },
+        "annotations": {
+          "summary": "High CPU Usage on Node 1"
+        },
+        "startsAt": "2023-10-03T12:00:00Z",
+        "endsAt": "2023-10-03T13:00:00Z",
+        "generatorURL": "http://example.com/generator1",
+        "fingerprint": "fingerprint1"
+      },
+      {
+        "status": "resolved",
+        "labels": {
+          "severity": "warning",
+          "job": "openshift",
+          "instance": "node-2"
+        },
+        "annotations": {
+          "summary": "Disk Space Cleared on Node 2"
+        },
+        "startsAt": "2023-10-03T14:00:00Z",
+        "endsAt": "2023-10-03T15:00:00Z",
+        "generatorURL": "http://example.com/generator2",
+        "fingerprint": "fingerprint2"
+      }
+    ]
+  }
