@@ -32,3 +32,8 @@
 {"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 14:07:21"}
 {"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 14:07:44"}
 {"body":{"name":"carlos"},"level":"info","message":"Received POST request at /webhook","timestamp":"2023-10-02 14:08:03"}
+{"body":{},"level":"info","message":"Received GET request at /webhook","timestamp":"2023-10-03 15:40:56"}
+{"body":{},"level":"info","message":"Received GET request at /favicon.ico","timestamp":"2023-10-03 15:40:56"}
+{"body":{},"level":"info","message":"Received GET request at /webhook","timestamp":"2023-10-03 15:41:03"}
+{"body":{},"level":"info","message":"Received GET request at /webhook","timestamp":"2023-10-03 15:41:06"}
+{"body":{},"level":"info","message":"Received GET request at /webhook","timestamp":"2023-10-03 15:41:10"}

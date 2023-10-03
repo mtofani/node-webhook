@@ -14,6 +14,11 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get("/webhook", (req, res) => {
+  // Aquí puedes manejar la lógica para las solicitudes GET en /webhook
+  res.send("GET request received at /webhook :) ");
+});
+
 app.post("/webhook", (req, res) => {
   //console.log("Received webhook:", req.body);
   //req.log.info("something");
