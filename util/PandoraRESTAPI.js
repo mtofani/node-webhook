@@ -1,5 +1,5 @@
 const axios = require("axios");
-const config = require("../config.json");
+const config = require("../config/config.json");
 
 class PandoraRestAPI {
   constructor(datasource, other) {

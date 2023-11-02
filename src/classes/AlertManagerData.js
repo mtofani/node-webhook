@@ -32,6 +32,7 @@ class AlertManagerData {
       const shouldProcessAlert = rules.some((rule) => {
         const fieldValue = getNestedProperty(alert, rule.field);
 
+        console.log("Analizando alerta: ", alert.fingerprint);
         if (fieldValue !== undefined) {
           switch (rule.operator) {
             case "equals":
@@ -50,7 +51,7 @@ class AlertManagerData {
         (mode === "whitelist" && shouldProcessAlert) ||
         (mode === "blacklist" && !shouldProcessAlert)
       ) {
-        console.log(`Alert ${index + 1}:`);
+        console.log(`Procesando Alert ${index + 1}: de `, this.getNumAlerts());
         console.log(`  Status: ${alert.status}`);
         console.log(`  Namespace: ${alert.labels.namespace}`);
         console.log(`  Severity: ${alert.labels.severity}`);
