@@ -1,12 +1,15 @@
 const axios = require("axios");
+const config = require("../config.json");
+
 class PandoraRestAPI {
-  constructor(url, other, user = "admin", pass = "pandora", apipass = "1234") {
-    this.url = url;
-    this.user = user;
-    this.pass = pass;
-    this.apipass = apipass;
-    this.other = other;
+  constructor(datasource, other) {
+    const sourceConfig = config[datasource];
+    this.url = sourceConfig.url;
+    this.user = sourceConfig.user;
+    this.pass = sourceConfig.pass;
+    this.apipass = sourceConfig.apipass;
     this.other_mode = "url_encode_separator_,";
+    this.other = other;
   }
 
   create_event = async () => {

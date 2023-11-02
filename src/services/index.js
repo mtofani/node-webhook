@@ -42,8 +42,8 @@ app.get("/pandorasender", async (req, res) => {
       //"id_extra",
     ];
 
-    const API = new PandoraRestAPI(PANDORA_URL, other);
-    const data = await API.create_event();
+  const API = new PandoraRestAPI("PANDORA_PROD", other);
+  //const data = await API.create_event();
 
     console.log("Respuesta del servidor:", data);
   } catch (error) {

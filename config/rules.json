@@ -1,0 +1,12 @@
+{
+  "rules": [
+    {
+      "field": "labels.namespace",
+      "operator": "contains",
+      "value": "beesion"
+    }
+  ],
+
+  "mode": "blacklist",
+  "disableFilter": true
+}

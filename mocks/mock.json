@@ -1,0 +1,142 @@
+{
+  "receiver": "Webhook Pandora Critical",
+  "status": "firing",
+  "alerts": [
+    {
+      "status": "firing",
+      "labels": {
+        "alertname": "pvc-volume-full",
+        "endpoint": "https-metrics",
+        "instance": "10.15.1.41:10250",
+        "job": "kubelet",
+        "metrics_path": "/metrics",
+        "namespace": "beesion-uat",
+        "node": "ocp01-rnj4k-worker-dqhb2",
+        "persistentvolumeclaim": "beesion-nfs-ifs-master-uat-claim",
+        "prometheus": "openshift-monitoring/k8s",
+        "service": "kubelet",
+        "severity": "critical"
+      },
+      "annotations": {
+        "description": "elastic 31.86% full for PVC beesion-nfs-ifs-master-uat-claim.",
+        "summary": "edificios esta loco is 85%"
+      },
+      "startsAt": "2023-09-04T16:38:02.935Z",
+      "endsAt": "0001-01-01T00:00:00Z",
+      "generatorURL": "https://thanos-querier-openshift-monitoring.apps.ocp01.iplan.com.ar/api/graph?g0.expr=kubelet_volume_stats_used_bytes%7Bnamespace%3D%22beesion-uat%22%7D+%2F+kubelet_volume_stats_capacity_bytes%7Bnamespace%3D%22beesion-uat%22%7D+%2A+100+%3E+0.85&g0.tab=1",
+      "fingerprint": "f9a7fc4adddc512c"
+    },
+    {
+      "status": "firing",
+      "labels": {
+        "alertname": "pvc-volume-full",
+        "endpoint": "https-metrics",
+        "instance": "10.15.1.46:10250",
+        "job": "kubelet",
+        "metrics_path": "/metrics",
+        "namespace": "beesion-uat",
+        "node": "ocp01-rnj4k-worker-rg784",
+        "persistentvolumeclaim": "beesion-nfs-ifs-master-uat-claim",
+        "prometheus": "openshift-monitoring/k8s",
+        "service": "kubelet",
+        "severity": "critical"
+      },
+      "annotations": {
+        "description": "31.86% full for PVC beesion-nfs-ifs-master-uat-claim.",
+        "summary": "PVC volume is 85%"
+      },
+      "startsAt": "2023-09-04T17:17:47.935Z",
+      "endsAt": "0001-01-01T00:00:00Z",
+      "generatorURL": "https://thanos-querier-openshift-monitoring.apps.ocp01.iplan.com.ar/api/graph?g0.expr=kubelet_volume_stats_used_bytes%7Bnamespace%3D%22beesion-uat%22%7D+%2F+kubelet_volume_stats_capacity_bytes%7Bnamespace%3D%22beesion-uat%22%7D+%2A+100+%3E+0.85&g0.tab=1",
+      "fingerprint": "a12d26be68cbd5f0"
+    },
+    {
+      "status": "firing",
+      "labels": {
+        "alertname": "pvc-volume-full",
+        "endpoint": "https-metrics",
+        "instance": "10.15.1.60:10250",
+        "job": "kubelet",
+        "metrics_path": "/metrics",
+        "namespace": "beesion-uat",
+        "node": "ocp01-rnj4k-worker-ppvxf",
+        "persistentvolumeclaim": "keycloak-data-uat",
+        "prometheus": "openshift-monitoring/k8s",
+        "service": "kubelet",
+        "severity": "critical"
+      },
+      "annotations": {
+        "description": "0.93% full for PVC keycloak-data-uat.",
+        "summary": "PVC volume is 85%"
+      },
+      "startsAt": "2023-09-04T17:05:17.935Z",
+      "endsAt": "0001-01-01T00:00:00Z",
+      "generatorURL": "https://thanos-querier-openshift-monitoring.apps.ocp01.iplan.com.ar/api/graph?g0.expr=kubelet_volume_stats_used_bytes%7Bnamespace%3D%22beesion-uat%22%7D+%2F+kubelet_volume_stats_capacity_bytes%7Bnamespace%3D%22beesion-uat%22%7D+%2A+100+%3E+0.85&g0.tab=1",
+      "fingerprint": "8782e777f0ce2e3a"
+    },
+    {
+      "status": "firing",
+      "labels": {
+        "alertname": "pvc-volume-full",
+        "endpoint": "https-metrics",
+        "instance": "10.15.1.65:10250",
+        "job": "kubelet",
+        "metrics_path": "/metrics",
+        "namespace": "beesion-uat",
+        "node": "ocp01-rnj4k-worker-zlbq5",
+        "persistentvolumeclaim": "beesion-nfs-ifs-master-uat-claim",
+        "prometheus": "openshift-monitoring/k8s",
+        "service": "kubelet",
+        "severity": "critical"
+      },
+      "annotations": {
+        "description": "31.86% full for PVC beesion-nfs-ifs-master-uat-claim.",
+        "summary": "PVC volume is 85%"
+      },
+      "startsAt": "2023-10-11T13:21:02.935Z",
+      "endsAt": "0001-01-01T00:00:00Z",
+      "generatorURL": "https://thanos-querier-openshift-monitoring.apps.ocp01.iplan.com.ar/api/graph?g0.expr=kubelet_volume_stats_used_bytes%7Bnamespace%3D%22beesion-uat%22%7D+%2F+kubelet_volume_stats_capacity_bytes%7Bnamespace%3D%22beesion-uat%22%7D+%2A+100+%3E+0.85&g0.tab=1",
+      "fingerprint": "6cab314edfe329c9"
+    },
+    {
+      "status": "firing",
+      "labels": {
+        "alertname": "pvc-volume-full",
+        "endpoint": "https-metrics",
+        "instance": "10.15.1.88:10250",
+        "job": "kubelet",
+        "metrics_path": "/metrics",
+        "namespace": "beesion-uat",
+        "node": "ocp01-rnj4k-worker-5996v",
+        "persistentvolumeclaim": "beesion-nfs-ifs-master-uat-claim",
+        "prometheus": "openshift-monitoring/k8s",
+        "service": "kubelet",
+        "severity": "critical"
+      },
+      "annotations": {
+        "description": "31.86% full for PVC beesion-nfs-ifs-master-uat-claim.",
+        "summary": "PVC volume is 85%"
+      },
+      "startsAt": "2023-09-05T15:31:17.935Z",
+      "endsAt": "0001-01-01T00:00:00Z",
+      "generatorURL": "https://thanos-querier-openshift-monitoring.apps.ocp01.iplan.com.ar/api/graph?g0.expr=kubelet_volume_stats_used_bytes%7Bnamespace%3D%22beesion-uat%22%7D+%2F+kubelet_volume_stats_capacity_bytes%7Bnamespace%3D%22beesion-uat%22%7D+%2A+100+%3E+0.85&g0.tab=1",
+      "fingerprint": "325fdf348852d207"
+    }
+  ],
+  "groupLabels": { "namespace": "beesion-uat" },
+  "commonLabels": {
+    "alertname": "pvc-volume-full",
+    "endpoint": "https-metrics",
+    "job": "kubelet",
+    "metrics_path": "/metrics",
+    "namespace": "beesion-uat",
+    "prometheus": "openshift-monitoring/k8s",
+    "service": "kubelet",
+    "severity": "critical"
+  },
+  "commonAnnotations": { "summary": "PVC volume is 85%" },
+  "externalURL": "https:///console-openshift-console.apps.ocp01.iplan.com.ar/monitoring",
+  "version": "4",
+  "groupKey": "{}/{severity=\"critical\"}:{namespace=\"beesion-uat\"}",
+  "truncatedAlerts": 0
+}

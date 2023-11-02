@@ -1,0 +1,9 @@
+{
+  "PANDORA_PROD": {
+    "url": "http://localhost:8080/pandora_console/include/api.php",
+    "user": "admin",
+    "pass": "pandora",
+    "apipass": "1234"
+  },
+  "datasource2": {}
+}

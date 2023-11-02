@@ -1,0 +1,10 @@
+{
+  "rules": [
+    {
+      "field": "annotations.summary",
+      "operator": "contains",
+      "value": "PVC"
+    }
+  ],
+  "mode": "blacklist"
+}
