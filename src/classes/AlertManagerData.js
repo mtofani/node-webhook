@@ -1,6 +1,6 @@
 const { errorMonitor } = require("events");
 const fs = require("fs");
-const { AlertSender } = require("./AlertSender");
+const AlertSender = require("./AlertSender");
 
 const config = JSON.parse(fs.readFileSync("config/rules.json", "utf8"));
 const rules = config.rules;

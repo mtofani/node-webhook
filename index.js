@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 const insertar = require("./db/db"); // Aquí importamos la función insertar
 const AlertManagerData = require("./src/classes/AlertManagerData");
 const alertSchema = require("./schemas/alertSchema");
-const { PandoraSender, AlertSender } = require("./src/classes/AlertSender");
+const PandoraSender = require("./src/classes/PandoraSender");
 
 const validateJSONMiddleware = (req, res, next) => {
   // Verificar si el tipo de contenido es JSON
