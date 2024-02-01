@@ -7,6 +7,6 @@
     }
   ],
 
-  "mode": "blacklist",
+  "mode": "whitelist",
   "disableFilter": true
 }
