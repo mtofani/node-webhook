@@ -1,9 +1,0 @@
-{
-  "PANDORA_PROD": {
-    "apiUrl": "http://172.22.83.240/pandora_console/include/api.php",
-    "user": "admin",
-    "pass": "pandora",
-    "apipass": "iplanapi"
-  },
-  "datasource2": {}
-}
